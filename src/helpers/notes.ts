@@ -1,8 +1,9 @@
 import { Note } from "../services/types";
+import { v4 as uuidv4 } from "uuid";
 
 export const NotesData: Note[] = [
   {
-    id: "1",
+    id: uuidv4(),
     name: "Shopping list",
     created: new Date(),
     category: "Task",
@@ -10,7 +11,7 @@ export const NotesData: Note[] = [
     isArchived: true,
   },
   {
-    id: "2",
+    id: uuidv4(),
     name: "Ipsum",
     created: new Date(),
     category: "Idea",
@@ -18,7 +19,7 @@ export const NotesData: Note[] = [
     isArchived: true,
   },
   {
-    id: "3",
+    id: uuidv4(),
     name: "Sit amet",
     created: new Date(),
     category: "Random Thought",
@@ -27,7 +28,7 @@ export const NotesData: Note[] = [
     isArchived: true,
   },
   {
-    id: "4",
+    id: uuidv4(),
     name: "Adipiscing ",
     created: new Date(),
     category: "Task",
@@ -35,7 +36,7 @@ export const NotesData: Note[] = [
     isArchived: true,
   },
   {
-    id: "5",
+    id: uuidv4(),
     name: "Ipsum",
     created: new Date(),
     category: "Idea",
@@ -43,7 +44,7 @@ export const NotesData: Note[] = [
     isArchived: true,
   },
   {
-    id: "6",
+    id: uuidv4(),
     name: "Amet",
     created: new Date(),
     category: "Random Thought",
@@ -52,7 +53,7 @@ export const NotesData: Note[] = [
     isArchived: true,
   },
   {
-    id: "7",
+    id: uuidv4(),
     name: "List",
     created: new Date(),
     category: "Task",
@@ -60,7 +61,7 @@ export const NotesData: Note[] = [
     isArchived: true,
   },
   {
-    id: "8",
+    id: uuidv4(),
     name: "Archive",
     created: new Date(),
     category: "Random Thought",
